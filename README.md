@@ -1,7 +1,7 @@
 # Conexión Creativa
 ## Descripción del proyecto:
 
-El proyecto consiste en una aplicación web que actúa como una plataforma para usuarios y artistas, permitiéndoles registrarse, interactuar y compartir contenido relacionado con el arte y la música. El canister proporciona una serie de funciones para gestionar usuarios y artistas, como la creación, lectura, actualización y eliminación de registros de usuario y artista.
+El proyecto consiste en una aplicación web que actúa como una plataforma para usuarios y artistas, permitiéndoles registrarse, interactuar y compartir contenido relacionado con la música. El canister proporciona una serie de funciones para gestionar usuarios y artistas, como la creación, lectura, actualización y eliminación de registros de usuario y artista.
 
 ## Funciones del Canister:
 
