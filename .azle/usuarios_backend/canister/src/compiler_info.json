@@ -1,0 +1,1 @@
+{"canister_methods":{"queries":[{"name":"readUserById","composite":false},{"name":"readUsers","composite":false},{"name":"readArtists","composite":false}],"updates":[{"name":"createUser"},{"name":"updateUser"},{"name":"createArtist"},{"name":"deleteArtist"}],"callbacks":{}}}

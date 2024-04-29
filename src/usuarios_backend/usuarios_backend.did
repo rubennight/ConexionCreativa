@@ -1,3 +1,9 @@
-service : {
-    "greet" : (text) -> (text) query;
+service: () -> {
+    createArtist: (text, text, text, text, int, text) -> (record {id:principal; url:text; resBreve:text; nombre:text; descripcion:text; calificacion:int; genero:text});
+    createUser: (text, text, text, text, text) -> (record {id:principal; nombre:text; password:text; email:text; usuario:text; apellidos:text});
+    deleteArtist: (text) -> (variant {Ok:record {id:principal; url:text; resBreve:text; nombre:text; descripcion:text; calificacion:int; genero:text}; Err:variant {UserDoesNotExist:text}});
+    readArtists: () -> (vec record {id:principal; url:text; resBreve:text; nombre:text; descripcion:text; calificacion:int; genero:text}) query;
+    readUserById: (text) -> (opt record {id:principal; nombre:text; password:text; email:text; usuario:text; apellidos:text}) query;
+    readUsers: () -> (vec record {id:principal; nombre:text; password:text; email:text; usuario:text; apellidos:text}) query;
+    updateUser: (text, text, text, text, text, text) -> (variant {Ok:record {id:principal; nombre:text; password:text; email:text; usuario:text; apellidos:text}; Err:variant {UserDoesNotExist:text}});
 }
