@@ -1,9 +1,9 @@
-#Conexión Creativa
-#Descripción del proyecto:
+## Conexión Creativa
+## Descripción del proyecto:
 
 El proyecto consiste en una aplicación web que actúa como una plataforma para usuarios y artistas, permitiéndoles registrarse, interactuar y compartir contenido relacionado con el arte y la música. El canister proporciona una serie de funciones para gestionar usuarios y artistas, como la creación, lectura, actualización y eliminación de registros de usuario y artista.
 
-#Funciones del Canister:
+## Funciones del Canister:
 
 Crear Usuario (createUser): Permite registrar un nuevo usuario en la plataforma proporcionando información como nombre, apellidos, correo electrónico, nombre de usuario y contraseña. El sistema asigna automáticamente un identificador único al usuario.
 Leer Usuario por ID (readUserById): Permite buscar y recuperar la información de un usuario específico utilizando su identificador único.
